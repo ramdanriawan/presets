@@ -33,6 +33,21 @@
  		$this->load->view("select");
  	}
 
+ 	function register()
+ 	{
+ 		$this->load->view("register");
+ 	}
+
+ 	function cari()
+ 	{
+ 		$this->load->view("cari");
+ 	}
+
+ 	function edit_admin()
+ 	{
+ 		$this->load->view("edit_admin");
+ 	}
+
  }
 
  ?>
